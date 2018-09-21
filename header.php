@@ -37,11 +37,11 @@
 		  </a>
 		  <div class="collapse navbar-collapse justify-content-end mr-10" id="navbarNav">
 		    <ul id="hormenu" class="navbar-nav">
-					<a href="#home" class="nav-link"><li data-menuanchor="home" class="navbar-nav bd-sweep-to-top navlink text-center active">Strona główna</li></a>
-					<a href="#services" class="nav-link"><li data-menuanchor="services" class="navbar-nav bd-sweep-to-top navlink text-center">Usługi</li></a>
-					<a href="#projects" class="nav-link"><li data-menuanchor="projects" class="navbar-nav bd-sweep-to-top navlink text-center">Projekty</li></a>
-					<a href="#team" class="nav-link"><li data-menuanchor="team" class="navbar-nav bd-sweep-to-top navlink text-center">Ekipa</li></a>
-					<a href="#contact" class="nav-link"><li data-menuanchor="contact" class="navbar-nav bd-sweep-to-top navlink text-center">Kontakt</li></a>
+					<a href="#home" class="nav-link"><li data-menuanchor="home" class="navbar-nav bd-sweep-to-top navlink text-center active" style="padding-left: 15px;">Strona główna</li></a>
+					<a href="#services" class="nav-link"><li data-menuanchor="services" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Usługi</li></a>
+					<a href="#projects" class="nav-link"><li data-menuanchor="projects" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Projekty</li></a>
+					<a href="#team" class="nav-link"><li data-menuanchor="team" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Ekipa</li></a>
+					<a href="#contact" class="nav-link"><li data-menuanchor="contact" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Kontakt</li></a>
 		    </ul>
 		  </div>
 		</nav>

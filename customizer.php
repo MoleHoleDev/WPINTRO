@@ -98,6 +98,7 @@ function customizer_bd1($wp_customize) {
     ) );
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'nav_bottom_color', array(
     	'label'      => 'Kolor nawigacji',
+      'description' => __( 'Kolor tła nawigacji zostanie zmieniony po zastosowaniu zmian' ),
     	'section'    => 'cd_colors',
     	'settings'   => 'nav_bottom_color',
     ) ) );
@@ -108,6 +109,8 @@ function customizer_bd1($wp_customize) {
       ?>
            <style type="text/css">
                .navlink { border-bottom-color: <?php echo get_theme_mod('nav_bottom_color', '#ff4500'); ?>; }
+               .navlink.active { background-color: <?php echo get_theme_mod('nav_bottom_color', '#ff4500'); ?>; }
+               .bd-sweep-to-top:before { background-color: <?php echo get_theme_mod('nav_bottom_color', '#ff4500'); ?>; }
                .sectionhome {  background: url('<?php echo get_theme_mod('section_back_img1', get_template_directory_uri()."/img/material9.jpg"); ?>'); }
                .sectionservices {  background: url('<?php echo get_theme_mod('section_back_img2', get_template_directory_uri()."/img/material6.jpg"); ?>'); }
                .sectionprojects {  background: url('<?php echo get_theme_mod('section_back_img3', get_template_directory_uri()."/img/material4.jpg"); ?>'); }
