@@ -32,16 +32,16 @@
 		    <span class="navbar-toggler-icon" style="background-image: url('https://png.icons8.com/cotton/2x/hamburger.png');"></span>
 		  </button>
 			<a class="navbar-brand ml-10" href="#home">
-		    <img src="<?php echo get_template_directory_uri(); ?>/img/logo2xz.png" width="auto" height="70" class="d-inline-block align-top" alt="logo baddevs">
+		    <img src="<?php echo get_template_directory_uri(); ?>/img/logo2xz.png" width="auto" height="50" class="d-inline-block align-top" alt="logo baddevs">
 		    <font color="white"><?php  echo get_bloginfo( 'name' ); ?></font>
 		  </a>
 		  <div class="collapse navbar-collapse justify-content-end mr-10" id="navbarNav">
 		    <ul id="hormenu" class="navbar-nav">
-					<a href="#home" class="nav-link"><li data-menuanchor="home" class="navbar-nav bd-sweep-to-top navlink text-center active" style="padding-left: 15px;">Strona główna</li></a>
-					<a href="#services" class="nav-link"><li data-menuanchor="services" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Usługi</li></a>
-					<a href="#projects" class="nav-link"><li data-menuanchor="projects" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Projekty</li></a>
-					<a href="#team" class="nav-link"><li data-menuanchor="team" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Ekipa</li></a>
-					<a href="#contact" class="nav-link"><li data-menuanchor="contact" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 15px;">Kontakt</li></a>
+					<a href="#home" class="nav-link"><li data-menuanchor="home" class="navbar-nav bd-sweep-to-top navlink text-center active" style="padding-left: 10px;">Strona główna</li></a>
+					<a href="#services" class="nav-link"><li data-menuanchor="services" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 10px;">Usługi</li></a>
+					<a href="#projects" class="nav-link"><li data-menuanchor="projects" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 10px;">Projekty</li></a>
+					<a href="#team" class="nav-link"><li data-menuanchor="team" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 10px;">Ekipa</li></a>
+					<a href="#contact" class="nav-link"><li data-menuanchor="contact" class="navbar-nav bd-sweep-to-top navlink text-center" style="padding-left: 10px;">Kontakt</li></a>
 		    </ul>
 		  </div>
 		</nav>

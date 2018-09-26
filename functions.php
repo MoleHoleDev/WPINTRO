@@ -9,6 +9,8 @@ function startwordpress_scripts() {
 	wp_enqueue_style( 'pagepiling', get_template_directory_uri() . '/css/jquery.pagepiling.css' );
 	wp_enqueue_style( 'hover', get_template_directory_uri() . '/css/hover-min.css' );
 	wp_enqueue_style( 'lightslider', get_template_directory_uri() . '/css/lightslider.min.css' );
+	wp_enqueue_style( 'slick', get_template_directory_uri() . '/slick/slick.css' );
+	wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/slick/slick-theme.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );

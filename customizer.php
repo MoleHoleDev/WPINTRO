@@ -114,8 +114,8 @@ function customizer_bd1($wp_customize) {
                .sectionhome {  background: url('<?php echo get_theme_mod('section_back_img1', get_template_directory_uri()."/img/material9.jpg"); ?>'); }
                .sectionservices {  background: url('<?php echo get_theme_mod('section_back_img2', get_template_directory_uri()."/img/material6.jpg"); ?>'); }
                .sectionprojects {  background: url('<?php echo get_theme_mod('section_back_img3', get_template_directory_uri()."/img/material4.jpg"); ?>'); }
-               .sectionteam {  background: url('<?php echo get_theme_mod('section_back_img4', get_template_directory_uri()."/img/material5.jpg"); ?>'); }
-               .sectioncontact {  background: url('<?php echo get_theme_mod('section_back_img5', get_template_directory_uri()."/img/material5.jpg"); ?>'); }
+               .sectionteam {  background: url('<?php echo get_theme_mod('section_back_img4', get_template_directory_uri()."/img/material5.png"); ?>'); }
+               .sectioncontact {  background: url('<?php echo get_theme_mod('section_back_img5', get_template_directory_uri()."/img/material8.jpg"); ?>'); }
            </style>
       <?php
   }

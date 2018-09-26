@@ -11,8 +11,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/lightslider.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.pagepiling.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js"></script>
     <?php wp_footer(); ?>
     <script>
+      $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        fade: true,
+        asNavFor: '.slider-nav'
+      });
+      $('.slider-nav').slick({
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        infinite: true,
+        responsive: true,
+        centerMode: false,
+        autoplay: true,
+        focusOnSelect: true,
+        variableWidth: true
+      });
       $(document).ready(function() {
         $('#pagepiling').pagepiling({
           direction: 'horizontal',
