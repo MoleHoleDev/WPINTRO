@@ -27,7 +27,7 @@
 	<div id="app">
 
 
-		<nav class="navbar navbar-toggleable-md navbar-light fixed-top" style="background: rgba(0,0,0,0.5);">
+		<nav id="navi" class="navbar navbar-toggleable-md navbar-light fixed-top" style="background: rgba(0,0,0,0.5);">
 		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon" style="background-image: url('https://png.icons8.com/cotton/2x/hamburger.png');"></span>
 		  </button>

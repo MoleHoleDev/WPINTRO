@@ -1,29 +1,15 @@
-<div class="projects">
-  <div class="row text-center" style="position: relative; top: 60px;">
-    <div class="slider-for">
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-38196.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-389734.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-433604.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-577585.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-808467.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-38196.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-389734.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-433604.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-577585.jpeg"></div>
-      <div><img class="projects_slider_img_big" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-808467.jpeg"></div>
+<div class="projects" style="height:100%;">
+    <div class="projects_slider" style="height: 100%;">
+      <div id="immersive_slider" style="height: 70%; width: 80%; margin-top: 9%; margin-left: auto; margin-right: auto;">
+        <div class="slide" data-blurred="<<background-image-url>>">
+          <img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-38196.jpeg">
+          <span> COŚ </span>
+        </div>
+        <div class="slide" data-blurred="<<background-image-url>>">
+          <img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-389734.jpeg">
+        </div>
+        <a href="#" class="is-prev">&laquo;</a>
+        <a href="#" class="is-next">&raquo;</a>
+      </div>
     </div>
-    <br>
-    <div class="slider-nav">
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-38196.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-389734.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-433604.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-577585.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-808467.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-38196.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-389734.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-433604.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-577585.jpeg"></div>
-      <div><img class="projects_slider_img" src="<?php echo get_template_directory_uri(); ?>/img/pexels-photo-808467.jpeg"></div>
-    </div>
-  </div>
 </div>
